@@ -19,8 +19,21 @@ jobs:
         with:
           submodules: true
           lfs: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22    
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
+
       - name: Deploy Angular
-        run: npm run build -- --configuration production    
+        run: npm run build -- --configuration production  
+          
       - name: Build And Deploy        
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
