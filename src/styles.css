@@ -7,9 +7,9 @@ body {
     font-weight: 300;
     text-align: center;
     background: #3023ae;
-    background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
-    background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
-    background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+    background: -moz-linear-gradient(60deg, #3023ae 0%, #6dd77b 100%);
+    background: -webkit-linear-gradient(60deg, #3023ae 0%, #6dd77b 100%);
+    background: linear-gradient(60deg, #3023ae 0%, #6dd77b 100%);
 }
 
 button {
